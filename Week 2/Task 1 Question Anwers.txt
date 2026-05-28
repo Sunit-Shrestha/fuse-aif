@@ -1,0 +1,19 @@
+Config (Factor III)
+●​ Why is .env better than writing passwords in code?
+->	It is better to use .env files to keep sensitive information as they
+	keep the sensitive information separate from source code,
+	improving security and making it easier to use different configurations
+	for development, testing, and production without changing the codebase.
+
+Backing Services (Factor IV)
+●​ Why is treating the database as a separate service useful?
+->	Treating the database as a separate service makes the application
+	more modular and flexible, allowing databases to be replaced, scaled,
+	or managed independently from the application code.
+
+Dev/Prod Parity (Factor X)
+●​ Why does Docker make development and production similar?
+->	Docker packages the application and its dependencies into 
+	consistent containers, reducing differences between development
+	and production environments and minimizing issues with setting up
+	the project in different environments and devices.
