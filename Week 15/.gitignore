@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.faiss
+task1_ai_assistant/data/index/
+task2_productionize_router/artifacts/*.pt
+task2_productionize_router/artifacts/*.onnx
+task2_productionize_router/artifacts/*.json
+!task2_productionize_router/artifacts/.gitkeep
+.streamlit/
