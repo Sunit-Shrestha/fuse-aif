@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.faiss
+ai_assistant/data/index/
+.streamlit/
+.pytest_cache/

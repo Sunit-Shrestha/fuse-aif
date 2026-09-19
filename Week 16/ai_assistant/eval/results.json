@@ -1,0 +1,170 @@
+{
+  "rows": [
+    {
+      "id": "compare_12_14",
+      "model": "gemini-3.5-flash-lite",
+      "injected": null,
+      "completed": true,
+      "tools_ok": true,
+      "iterations": 7,
+      "reasonable_len": true,
+      "tokens": 10491,
+      "status": "answered",
+      "path": [
+        "list_available_weeks",
+        "search_course_materials",
+        "record_note",
+        "search_course_materials",
+        "search_course_materials",
+        "record_note",
+        "submit_answer"
+      ],
+      "answer": "- **Week 12** covers an end-to-end Named Entity Recognition (NER) pipeline for customer support ticket analysis, which includes text preprocessing, feature engineering, evaluation, error analysis, and",
+      "tool_problems": [],
+      "failure": null
+    },
+    {
+      "id": "dataset_w14",
+      "model": "gemini-3.5-flash-lite",
+      "injected": null,
+      "completed": true,
+      "tools_ok": true,
+      "iterations": 3,
+      "reasonable_len": true,
+      "tokens": 3391,
+      "status": "answered",
+      "path": [
+        "search_course_materials",
+        "record_note",
+        "submit_answer"
+      ],
+      "answer": "The Week 14 assignment uses the Bitext Customer Support LLM Chatbot Training Dataset (HuggingFace: bitext/Bitext-customer-support-llm-chatbot-training-dataset), which contains 26,872 real-phrasing cus",
+      "tool_problems": [],
+      "failure": null
+    },
+    {
+      "id": "dataset_w12",
+      "model": "gemini-3.5-flash-lite",
+      "injected": null,
+      "completed": true,
+      "tools_ok": true,
+      "iterations": 3,
+      "reasonable_len": true,
+      "tokens": 3217,
+      "status": "answered",
+      "path": [
+        "search_course_materials",
+        "record_note",
+        "submit_answer"
+      ],
+      "answer": "In Week 12, the dataset used is the WNUT-17 Emerging Entities Dataset, and the task is Named Entity Recognition (NER) (specifically, an end-to-end Named Entity Recognition pipeline for customer suppor",
+      "tool_problems": [],
+      "failure": null
+    },
+    {
+      "id": "not_in_corpus",
+      "model": "gemini-3.5-flash-lite",
+      "injected": null,
+      "completed": true,
+      "tools_ok": true,
+      "iterations": 7,
+      "reasonable_len": false,
+      "tokens": 10026,
+      "status": "answered",
+      "path": [
+        "search_course_materials",
+        "search_course_materials",
+        "list_available_weeks",
+        "search_course_materials",
+        "search_course_materials",
+        "search_course_materials",
+        "submit_answer"
+      ],
+      "answer": "The course materials do not contain any references or information regarding Kubernetes operators.",
+      "tool_problems": [],
+      "failure": null
+    },
+    {
+      "id": "missing_week",
+      "model": "gemini-3.5-flash-lite",
+      "injected": null,
+      "completed": true,
+      "tools_ok": true,
+      "iterations": 3,
+      "reasonable_len": true,
+      "tokens": 2921,
+      "status": "answered",
+      "path": [
+        "list_available_weeks",
+        "search_course_materials",
+        "submit_answer"
+      ],
+      "answer": "There is no Week 99 in the course materials. The available weeks are Weeks 7, 8, 9, 10, 11, 12, 14, and 15.",
+      "tool_problems": [],
+      "failure": null
+    },
+    {
+      "id": "vague",
+      "model": "gemini-3.5-flash-lite",
+      "injected": null,
+      "completed": true,
+      "tools_ok": true,
+      "iterations": 2,
+      "reasonable_len": true,
+      "tokens": 1495,
+      "status": "needs_clarification",
+      "path": [
+        "list_available_weeks",
+        "ask_user"
+      ],
+      "answer": "Could you please specify which topic, week, or question you would like to know about?",
+      "tool_problems": [],
+      "failure": null
+    },
+    {
+      "id": "inject_search_down",
+      "model": "gemini-3.5-flash-lite",
+      "injected": "search_unavailable",
+      "completed": true,
+      "tools_ok": true,
+      "iterations": 6,
+      "reasonable_len": true,
+      "tokens": 5177,
+      "status": "answered",
+      "path": [
+        "search_course_materials",
+        "search_course_materials",
+        "list_available_weeks",
+        "search_course_materials",
+        "search_course_materials",
+        "submit_answer"
+      ],
+      "answer": "I could not verify which dataset the Week 14 assignment uses because the search backend encountered an error.",
+      "tool_problems": [],
+      "failure": null
+    },
+    {
+      "id": "inject_malformed",
+      "model": "gemini-3.5-flash-lite",
+      "injected": "malformed_search",
+      "completed": true,
+      "tools_ok": true,
+      "iterations": 6,
+      "reasonable_len": true,
+      "tokens": 5140,
+      "status": "answered",
+      "path": [
+        "search_course_materials",
+        "search_course_materials",
+        "list_available_weeks",
+        "search_course_materials",
+        "search_course_materials",
+        "submit_answer"
+      ],
+      "answer": "I could not verify the dataset used for the Week 14 assignment because the search tool returned errors/corrupted output for Week 14 queries.",
+      "tool_problems": [],
+      "failure": null
+    }
+  ],
+  "failures": []
+}
